@@ -1,0 +1,20 @@
+Indentation is used to demarcate blocks of code
+	can be called "suite" instead of "block"
+
+{}
+	still used in python
+	meant for delimiting data rather than code
+
+python variables are dynamically assigned
+	no need to predeclare
+	type information is gained from object
+
+Lists:
+	[]
+	contain any data of any type
+		can mix types in a list 
+	
+in
+	operator similar to (<, >, >=, <=)
+	determines is something is inside another
+	returns T/F0
