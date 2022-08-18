@@ -10,11 +10,30 @@ python variables are dynamically assigned
 	type information is gained from object
 
 Lists:
-	[]
+	indexed and mutable
 	contain any data of any type
 		can mix types in a list 
-	
+	dynamic size in python
+
+Tuple:
+	immutable orded collection of objects (immutable list)
+
+Dictionary: 
+	key/value pairs
+		unique key has a value associated with it
+		value can be any object
+	base level of a symbol table or has table
+	unordered and mutable
+	to display the data in a specific order work must be done
+
+Set:
+	unordered set of unique objects	(no dupes)
+	mutable
+
 in
 	operator similar to (<, >, >=, <=)
 	determines is something is inside another
-	returns T/F0
+	returns T/F
+	for i in x:
+		i becomes a value in x and iterates
+		y = i not y = x[i]
