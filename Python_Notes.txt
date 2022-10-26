@@ -37,3 +37,14 @@ in
 	for i in x:
 		i becomes a value in x and iterates
 		y = i not y = x[i]
+
+with
+	with used with file streams will auto close
+	EX: with open('example.txt') as task:
+			for item in task:
+				print(item)
+	
+	manages context within the suit it runs with+open = interpreter cleans up and calls close
+
+Classes
+	recommended to use w/ with statement
